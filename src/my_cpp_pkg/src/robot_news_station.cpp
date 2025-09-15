@@ -1,9 +1,9 @@
 #include "rclcpp/rclcpp.hpp"
-#include "example_interfaces/msg/string.hpp" // MODIFY MESSAGE TYPE IF NEEDED
+#include "example_interfaces/msg/string.hpp" 
 
-using namespace std::chrono_literals;
+using namespace std::chrono_literals; //for using time literals like 500ms
      
-class RobotNewsStationNode: public rclcpp::Node { //
+class RobotNewsStationNode: public rclcpp::Node { // Create a class that inherits from rclcpp::Node
     public:
         RobotNewsStationNode() : Node("robot_news_station") { // MODIFY NAME
             publisher_ = this->create_publisher<example_interfaces::msg::String>("robot_news", 10); 
@@ -14,18 +14,18 @@ class RobotNewsStationNode: public rclcpp::Node { //
     private:
         void publishNews() {
             auto message = example_interfaces::msg::String();
-            message.data = "Hello from Robot News Station from CPP!"; // MODIFY MESSAGE CONTENT IF NEEDED
-            RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
-            publisher_->publish(message);
+            message.data = "Hello from Robot News Station from CPP!"; //Message content
+            RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str()); // log message
+            publisher_->publish(message); // Publish message
         }
-        rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_;
+        rclcpp::Publisher<example_interfaces::msg::String>::SharedPtr publisher_; //Publisher object
         rclcpp::TimerBase::SharedPtr timer_ ;
 };
      
 int main(int argc, char **argv){
-    rclcpp::init(argc, argv);
-    auto node = std::make_shared<RobotNewsStationNode>(); 
-    rclcpp::spin(node);
-    rclcpp::shutdown();
+    rclcpp::init(argc, argv); // Initialize ROS2
+    auto node = std::make_shared<RobotNewsStationNode>(); // Create node 
+    rclcpp::spin(node); // Keep node alive to listen for messages
+    rclcpp::shutdown(); // Shutdown ROS2
     return 0;
 }
