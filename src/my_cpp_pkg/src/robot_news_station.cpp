@@ -5,7 +5,7 @@ using namespace std::chrono_literals; //for using time literals like 500ms
      
 class RobotNewsStationNode: public rclcpp::Node { // Create a class that inherits from rclcpp::Node
     public:
-        RobotNewsStationNode() : Node("robot_news_station") { // MODIFY NAME
+        RobotNewsStationNode() : Node("robot_news_station") { 
             publisher_ = this->create_publisher<example_interfaces::msg::String>("robot_news", 10); 
             timer_ = this->create_wall_timer(500ms, std::bind(&RobotNewsStationNode::publishNews, this));
             RCLCPP_INFO(this->get_logger(), "Robot News Station node has been started from CPP!");
