@@ -1,0 +1,41 @@
+[0.025s] Invoking command in '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg': CMAKE_PREFIX_PATH=/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kasynx/Space-concordia-robotics/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg
+[0.418s] -- The C compiler identification is GNU 11.4.0
+[0.675s] -- The CXX compiler identification is GNU 11.4.0
+[0.716s] -- Detecting C compiler ABI info
+[0.869s] -- Detecting C compiler ABI info - done
+[0.875s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.879s] -- Detecting C compile features
+[0.880s] -- Detecting C compile features - done
+[0.893s] -- Detecting CXX compiler ABI info
+[1.082s] -- Detecting CXX compiler ABI info - done
+[1.097s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.098s] -- Detecting CXX compile features
+[1.099s] -- Detecting CXX compile features - done
+[1.180s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.459s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.692s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[1.846s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.865s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.902s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.965s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.025s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.187s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.195s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.488s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.548s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.603s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.629s] -- Looking for pthread.h
+[2.778s] -- Looking for pthread.h - found
+[2.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.932s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.932s] -- Found Threads: TRUE  
+[3.094s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[3.094s]   ament_target_dependencies() the passed package name 'example_interfaces'
+[3.094s]   was not found before
+[3.094s] Call Stack (most recent call first):
+[3.094s]   CMakeLists.txt:13 (ament_target_dependencies)
+[3.094s] 
+[3.097s] [0m
+[3.097s] -- Configuring incomplete, errors occurred!
+[3.098s] See also "/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/CMakeOutput.log".
+[3.102s] Invoked command in '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg' returned '1': CMAKE_PREFIX_PATH=/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/kasynx/Space-concordia-robotics/ros2_ws/src/my_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg

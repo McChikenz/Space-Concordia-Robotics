@@ -1,0 +1,32 @@
+[0.587s] Invoking command in '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg': PYTHONPATH=/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build
+[0.834s] running develop
+[0.951s] Removing /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.020s] Invoked command in '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg' returned '0': PYTHONPATH=/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build
+[1.024s] Invoking command in '/home/kasynx/Space-concordia-robotics/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build install --record /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force
+[1.208s] running egg_info
+[1.211s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.217s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.217s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.217s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.217s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.219s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.221s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.221s] running build
+[1.221s] running build_py
+[1.221s] copying my_py_pkg/robot_news_station.py -> /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.221s] running install
+[1.223s] running install_lib
+[1.224s] creating /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.225s] copying /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.225s] copying /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.227s] byte-compiling /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.227s] byte-compiling /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.227s] running install_data
+[1.227s] copying resource/my_py_pkg -> /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.227s] copying package.xml -> /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.227s] running install_egg_info
+[1.230s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.230s] running install_scripts
+[1.256s] Installing robot_news_station script to /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.258s] writing list of installed files to '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/install.log'
+[1.286s] Invoked command in '/home/kasynx/Space-concordia-robotics/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/build install --record /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data --force

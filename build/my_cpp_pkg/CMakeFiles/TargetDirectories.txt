@@ -1,0 +1,11 @@
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/uninstall.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/my_cpp_pkg_uninstall.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/robot_news_station.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/smartphone.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/test.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/edit_cache.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/list_install_components.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/install.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/install/local.dir
+/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg/CMakeFiles/install/strip.dir

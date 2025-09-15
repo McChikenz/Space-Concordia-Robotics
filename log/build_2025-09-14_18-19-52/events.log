@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.005261] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.005323] (my_cpp_pkg) JobQueued: {'identifier': 'my_cpp_pkg', 'dependencies': OrderedDict()}
+[0.005343] (my_cpp_pkg) JobStarted: {'identifier': 'my_cpp_pkg'}
+[0.020155] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'cmake'}
+[0.031273] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'build'}
+[0.031340] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kasynx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kasynx'), ('OLDPWD', '/home/kasynx/Space-concordia-robotics/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1419'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kasynx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kasynx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezekiel:@/tmp/.ICE-unix/1381,unix/ezekiel:/tmp/.ICE-unix/1381'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59149e46_72fb_4d7f_a7c5_d63fc64bd2f9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M12UC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.074428] (my_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.110848] (-) TimerEvent: {}
+[0.221590] (-) TimerEvent: {}
+[0.247632] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.279423] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.283320] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.292631] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.322171] (-) TimerEvent: {}
+[0.323751] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.367509] (my_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.422595] (-) TimerEvent: {}
+[0.488460] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.497559] (my_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.524077] (-) TimerEvent: {}
+[0.625736] (-) TimerEvent: {}
+[0.703413] (my_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.727442] (-) TimerEvent: {}
+[0.773128] (my_cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[0.828227] (-) TimerEvent: {}
+[0.930382] (-) TimerEvent: {}
+[0.997957] (my_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.017598] (my_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.030918] (my_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg\n'}
+[1.031085] (-) TimerEvent: {}
+[1.081270] (my_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target robot_news_station\x1b[0m\n'}
+[1.106182] (my_cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target robot_news_station\n'}
+[1.132230] (-) TimerEvent: {}
+[1.167664] (my_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o\x1b[0m\n'}
+[1.233705] (-) TimerEvent: {}
+[1.337174] (-) TimerEvent: {}
+[1.437628] (-) TimerEvent: {}
+[1.538884] (-) TimerEvent: {}
+[1.639252] (-) TimerEvent: {}
+[1.740531] (-) TimerEvent: {}
+[1.844110] (-) TimerEvent: {}
+[1.944537] (-) TimerEvent: {}
+[2.050525] (-) TimerEvent: {}
+[2.152967] (-) TimerEvent: {}
+[2.253759] (-) TimerEvent: {}
+[2.354718] (-) TimerEvent: {}
+[2.455711] (-) TimerEvent: {}
+[2.558077] (-) TimerEvent: {}
+[2.658468] (-) TimerEvent: {}
+[2.759555] (-) TimerEvent: {}
+[2.863448] (-) TimerEvent: {}
+[2.966195] (-) TimerEvent: {}
+[3.067365] (-) TimerEvent: {}
+[3.171397] (-) TimerEvent: {}
+[3.273356] (-) TimerEvent: {}
+[3.379032] (-) TimerEvent: {}
+[3.479607] (-) TimerEvent: {}
+[3.580341] (-) TimerEvent: {}
+[3.680810] (-) TimerEvent: {}
+[3.781363] (-) TimerEvent: {}
+[3.882746] (-) TimerEvent: {}
+[3.987717] (-) TimerEvent: {}
+[4.088518] (-) TimerEvent: {}
+[4.188996] (-) TimerEvent: {}
+[4.290388] (-) TimerEvent: {}
+[4.391314] (-) TimerEvent: {}
+[4.494701] (-) TimerEvent: {}
+[4.597299] (-) TimerEvent: {}
+[4.701103] (-) TimerEvent: {}
+[4.803397] (-) TimerEvent: {}
+[4.904089] (-) TimerEvent: {}
+[5.007954] (-) TimerEvent: {}
+[5.108321] (-) TimerEvent: {}
+[5.210476] (-) TimerEvent: {}
+[5.310779] (-) TimerEvent: {}
+[5.415396] (-) TimerEvent: {}
+[5.516526] (-) TimerEvent: {}
+[5.617303] (-) TimerEvent: {}
+[5.718205] (-) TimerEvent: {}
+[5.821534] (-) TimerEvent: {}
+[5.922441] (-) TimerEvent: {}
+[6.023798] (-) TimerEvent: {}
+[6.124481] (-) TimerEvent: {}
+[6.225096] (-) TimerEvent: {}
+[6.325502] (-) TimerEvent: {}
+[6.431117] (-) TimerEvent: {}
+[6.533629] (-) TimerEvent: {}
+[6.634215] (-) TimerEvent: {}
+[6.736636] (-) TimerEvent: {}
+[6.837375] (-) TimerEvent: {}
+[6.938619] (-) TimerEvent: {}
+[7.040529] (-) TimerEvent: {}
+[7.147674] (-) TimerEvent: {}
+[7.252671] (-) TimerEvent: {}
+[7.357270] (-) TimerEvent: {}
+[7.457831] (-) TimerEvent: {}
+[7.558858] (-) TimerEvent: {}
+[7.663023] (-) TimerEvent: {}
+[7.768454] (-) TimerEvent: {}
+[7.869427] (-) TimerEvent: {}
+[7.970111] (-) TimerEvent: {}
+[8.071407] (-) TimerEvent: {}
+[8.172304] (-) TimerEvent: {}
+[8.272706] (-) TimerEvent: {}
+[8.383203] (-) TimerEvent: {}
+[8.484137] (-) TimerEvent: {}
+[8.588390] (-) TimerEvent: {}
+[8.689144] (-) TimerEvent: {}
+[8.790119] (-) TimerEvent: {}
+[8.890446] (-) TimerEvent: {}
+[8.995563] (-) TimerEvent: {}
+[9.099375] (-) TimerEvent: {}
+[9.202399] (-) TimerEvent: {}
+[9.304839] (-) TimerEvent: {}
+[9.405622] (-) TimerEvent: {}
+[9.507293] (-) TimerEvent: {}
+[9.607807] (-) TimerEvent: {}
+[9.709165] (-) TimerEvent: {}
+[9.812303] (-) TimerEvent: {}
+[9.913502] (-) TimerEvent: {}
+[10.021533] (-) TimerEvent: {}
+[10.122735] (-) TimerEvent: {}
+[10.223439] (-) TimerEvent: {}
+[10.324431] (-) TimerEvent: {}
+[10.425846] (-) TimerEvent: {}
+[10.527035] (-) TimerEvent: {}
+[10.627767] (-) TimerEvent: {}
+[10.728415] (-) TimerEvent: {}
+[10.829068] (-) TimerEvent: {}
+[10.934140] (-) TimerEvent: {}
+[11.037670] (-) TimerEvent: {}
+[11.138198] (-) TimerEvent: {}
+[11.246477] (-) TimerEvent: {}
+[11.352325] (-) TimerEvent: {}
+[11.452684] (-) TimerEvent: {}
+[11.555145] (-) TimerEvent: {}
+[11.602339] (my_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable smartphone\x1b[0m\n'}
+[11.656803] (-) TimerEvent: {}
+[11.761160] (-) TimerEvent: {}
+[11.861448] (-) TimerEvent: {}
+[11.962093] (-) TimerEvent: {}
+[12.063342] (-) TimerEvent: {}
+[12.166861] (-) TimerEvent: {}
+[12.178591] (my_cpp_pkg) StdoutLine: {'line': b'[100%] Built target smartphone\n'}
+[12.195470] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.207723] (my_cpp_pkg) JobProgress: {'identifier': 'my_cpp_pkg', 'progress': 'install'}
+[12.217930] (my_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg'], 'cwd': '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'kasynx'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/kasynx'), ('OLDPWD', '/home/kasynx/Space-concordia-robotics/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1419'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'kasynx'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'kasynx'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ezekiel:@/tmp/.ICE-unix/1381,unix/ezekiel:/tmp/.ICE-unix/1381'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59149e46_72fb_4d7f_a7c5_d63fc64bd2f9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.M12UC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.162'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/kasynx/Space-concordia-robotics/ros2_ws/build/my_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg:/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[12.235475] (my_cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.236204] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/robot_news_station\n'}
+[12.236349] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone\n'}
+[12.240679] (my_cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/lib/my_cpp_pkg/smartphone" to ""\n'}
+[12.241130] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/my_cpp_pkg\n'}
+[12.242573] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/my_cpp_pkg\n'}
+[12.244062] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.sh\n'}
+[12.245029] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[12.245573] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.sh\n'}
+[12.245755] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/environment/path.dsv\n'}
+[12.247084] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.bash\n'}
+[12.247996] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.sh\n'}
+[12.248104] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.zsh\n'}
+[12.248161] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/local_setup.dsv\n'}
+[12.250589] (my_cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.dsv\n'}
+[12.251530] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/ament_index/resource_index/packages/my_cpp_pkg\n'}
+[12.251723] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig.cmake\n'}
+[12.251842] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/cmake/my_cpp_pkgConfig-version.cmake\n'}
+[12.251985] (my_cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/kasynx/Space-concordia-robotics/ros2_ws/install/my_cpp_pkg/share/my_cpp_pkg/package.xml\n'}
+[12.255768] (my_cpp_pkg) CommandEnded: {'returncode': 0}
+[12.267061] (-) TimerEvent: {}
+[12.287907] (my_cpp_pkg) JobEnded: {'identifier': 'my_cpp_pkg', 'rc': 0}
+[12.289036] (-) EventReactorShutdown: {}
