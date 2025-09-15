@@ -6,12 +6,12 @@ from example_interfaces.msg import String
      
 class SmartphoneNode(Node):
     def __init__(self):
-        super().__init__("smartphone") 
-        self.subscriber = self.create_subscription(String, "robot_news", self.callback_robot_news, 10)
-        self.get_logger().info("Smartphone node has been started from python!")
+        super().__init__("smartphone")  #  Name of the node
+        self.subscriber = self.create_subscription(String, "robot_news", self.callback_robot_news, 10) # create a subscription to the "robot_news" topic
+        self.get_logger().info("Smartphone node has been started from python!") 
         
     def callback_robot_news(self, msg: String):
-        self.get_logger().info(msg.data)
+        self.get_logger().info(msg.data) # log the received message
 
      
 def main(args=None):
